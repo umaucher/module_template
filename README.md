@@ -1,6 +1,6 @@
 # C++ & Rust Bazel Template Repository
 
-This repository serves as a **template** for setting up **C++ and Rust projects** using **Bazel**.  
+This repository serves as a **template** for setting up **C++ and Rust projects** using **Bazel**.
 It provides a **standardized project structure**, ensuring best practices for:
 - **Build configuration** with Bazel.
 - **Testing** (unit and integration tests).
@@ -32,7 +32,7 @@ The template includes a **basic "Hello World" example** for both **C++ and Rust*
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/YOUR_ORG/YOUR_PROJECT.git
+git clone https://github.com/eclipse-score/YOUR_PROJECT.git
 cd YOUR_PROJECT
 ```
 
