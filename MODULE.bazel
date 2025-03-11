@@ -1,0 +1,12 @@
+module(name = "cpp_rust_template_repository", version = "1.0")
+
+
+# Add GoogleTest dependency
+bazel_dep(name = "googletest", version = "1.14.0")
+
+# Rust rules for Bazel
+bazel_dep(name = "rules_rust", version = "0.56.0")
+
+
+# Add your custom module from the bazel_registry
+bazel_dep(name = "score_cr_checker", version = "0.2.0")
