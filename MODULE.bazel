@@ -19,7 +19,7 @@ bazel_dep(name = "googletest", version = "1.14.0")
 bazel_dep(name = "rules_rust", version = "0.56.0")
 
 # Checker rule for CopyRight checks/fixs
-bazel_dep(name = "score_cr_checker", version = "0.2.0")
+bazel_dep(name = "score_cr_checker", version = "0.2.2")
 
 # C/C++ rules for Bazel
 bazel_dep(name = "rules_cc", version = "0.1.1")
