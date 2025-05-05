@@ -14,5 +14,8 @@
 
         // Linting and formatting for Python (LSP via ruff server)
         "charliermarsh.ruff",
+
+        // BasedPyright for python various type checking improvements and pylance features
+        "detachhead.basedpyright",
     ]
 }
