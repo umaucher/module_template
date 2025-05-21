@@ -13,6 +13,12 @@
 
 name: Documentation
 
+permissions:
+  contents: write
+  pages: write
+  pull-requests: write
+  id-token: write
+
 on:
   pull_request_target:
     types: [opened, reopened, synchronize] # Allows forks to trigger the docs build

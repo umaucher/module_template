@@ -13,6 +13,11 @@
 
 name: Documentation Cleanup
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight UTC
